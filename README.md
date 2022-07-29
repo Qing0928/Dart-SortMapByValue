@@ -75,4 +75,5 @@ var sorted = SplayTreeMap<String, int>.from(
 
 
 若是Map中的剛好有相同的值，使用一般常見的SplayTreeMap排序的話，相同值的其中一個會消失
+
 因此若是要將Map中的值做排序，還是建議先將Map轉為List，排序完後再轉回Map
